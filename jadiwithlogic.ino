@@ -2,8 +2,8 @@
 #include <WiFiClientSecure.h>
 
 #ifndef STASSID
-#define STASSID "SSID"
-#define STAPSK  "SSIDPASS"
+#define STASSID "Sukasto House"
+#define STAPSK  "AminiVan12!"
 #endif
 
 const char* ssid = STASSID;
@@ -16,7 +16,7 @@ const int httpsPort = 443;
 
 // Use web browser to view and copy
 // SHA1 fingerprint of the certificate
-const char fingerprint[] PROGMEM = "2E F5 0F 8D D6 33 0F 2E C6 CF 84 3B 00 4B 8A 8F 5D 1B 04 61";
+const char fingerprint[] PROGMEM = "7A 19 06 B0 69 72 A3 77 A4 92 FE A2 29 59 D2 87 76 F7 77 FE";
 
 void setup() {
   pinMode(buzzer, OUTPUT);
